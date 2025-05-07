@@ -1,6 +1,8 @@
 set nu
 set expandtab
 set tabstop=4
+set laststatus=2
+set statusline=%f
 call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
